@@ -1,0 +1,66 @@
+.container {
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.option {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgb(240, 238, 238);
+}
+
+.option_value {
+    margin-left: 10px;
+}
+
+.submit_button {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(65, 65, 185);
+    color: white;
+    font-size: 16px;
+}
+
+.result_option {
+    position: relative;
+    z-index: 0;
+
+}
+
+.result_option:hover {
+    cursor: default;
+    background-color: unset;
+}
+
+.progress_bar {
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(240, 238, 238);
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+}
+
+.selected_progress_bar {
+    background-color: rgb(214, 214, 245);
+}

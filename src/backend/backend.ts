@@ -1,7 +1,7 @@
 import { PollData, PollResult } from "../PollWidget/PollWidget.type";
 
 export const pollData: PollData = {
-    question: "What is your favorite programming language",
+    question: "What is your favorite programming language?",
     options: [
         {
             id: 101,
